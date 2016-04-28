@@ -1,2 +1,2 @@
 # Algorithms
-Daily Practice
+My modules for common algos
