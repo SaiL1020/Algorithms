@@ -1,10 +1,10 @@
 /**
  * Created by sail on 9/19/16.
- * Code one more line :)
+ * QuickSort
  */
 public class QuickSort {
     // nArray != null, l < r, pivot = nArray[0]
-    public void sort(int[] nArray, int ll, int rr) {
+    private void sort(int[] nArray, int ll, int rr) {
         if (ll >= rr) return;
         int pivot = nArray[ll], l = ll, r = rr;
         while (l < r) {
@@ -18,7 +18,7 @@ public class QuickSort {
         sort(nArray, l + 1, rr);
     }
 
-    public void run() {
+    private void run() {
         int[] nums = new int[] {5, 1, 7, 3, 4, 2, 6};
         sort(nums, 0, nums.length - 1);
         for (int k : nums) {
