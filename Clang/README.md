@@ -1,0 +1,38 @@
+### Sort Algorithms
+---
+**Forked from https://github.com/guomeizhou/algorithm**  
+For a side-by-side comparison reason, I put it here.
+
+前言：该文件夹存放有关算法的C语言源代码，所有代码都在 VC++6.0 下编译运行通过。  
+原作者：guomeizhou  
+邮箱：gmeizhou@163.com  
+
+---
+
+路径: ./sort_algorithms/  
+内容: 常见排序算法  
+
+功能        |         文件名
+------------|--------------------
+冒泡排序      |        BubbleSort.c
+桶排序        |        BucketSort.c
+计数排序      |        CountingSort.c
+堆排序       |         HeapSort.c
+插入排序     |         InsertSort.c
+二分插入排序  |        InsertSort_Binary.c
+二路插入排序  |        InsertSort_TwoPath.c
+归并排序     |         MergeSort.c
+非递归归并排序  |      MergeSort_NoRecursion.c
+快速排序      |        QuickSort.c
+非递归快速排序    |    QuickSort_NoRecursion.c
+基数排序        |      RadixSort.c
+选择排序         |     SelectSort.c
+希尔排序        |      ShellSort.c
+
+---
+
+路径: ./question_and_answer/sort/  
+内容: 有关排序的问题和答案  
+
+问题文件名: question.txt  
+答案文件名: answer_001.c ~ answer_003.c
